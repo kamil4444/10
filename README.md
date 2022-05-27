@@ -39,3 +39,5 @@ Wtedy dokonuje upg basha, daje uprawnienia wykonywania i zapisuje wynik skryptu 
 # Budowanie Obrazu
 ![docker](https://user-images.githubusercontent.com/103449118/170571651-f85e45aa-635b-4572-baf7-ac9cbbd379f0.png)
 
+# Zadanie 3
+docker run -it --rm --mount source=RemoteVol,target=/logi --memory="512m" lab10docker
