@@ -41,3 +41,5 @@ Wtedy dokonuje upg basha, daje uprawnienia wykonywania i zapisuje wynik skryptu 
 
 # Zadanie 3
 docker run -it --rm --mount source=RemoteVol,target=/logi --memory="512m" lab10docker
+
+docker volume create --driver local --opt type=cifs --opt device=//192.168.1.19/data --opt "o=username=rytel,password=${CIFS_PASSWD}" RemoteVol
